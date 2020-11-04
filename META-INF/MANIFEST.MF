@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
-Automatic-Module-Name: parrillada_2020s2
+Automatic-Module-Name: parrillada2020
 Bundle-ManifestVersion: 2
-Bundle-Name: parrillada_2020s2
+Bundle-Name: parrillada2020
 Bundle-Vendor: My Company
 Bundle-Version: 1.0.0.qualifier
-Bundle-SymbolicName: parrillada_2020s2; singleton:=true
+Bundle-SymbolicName: parrillada2020; singleton:=true
 Bundle-ActivationPolicy: lazy
 Require-Bundle: com.ibm.icu,
  org.eclipse.xtext,

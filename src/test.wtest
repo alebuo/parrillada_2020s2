@@ -1,3 +1,24 @@
 import comidas.*
 import comensales.*
 import cocina.*
+test "test de Objetos1" {
+	
+const hamdeCarne = new HamburguesaDeCarne(pan=panCasero)
+assert.that(hamdeCarne.valoracion()==80)
+
+const hambveget = new HamburguesasVegetarianas(pan=panDeMasaMadre,legumbre=["garbanzos"])
+assert.that(hambveget.valoracion()==122)
+
+const provo1 = new Provoleta(peso=190, tieneEspecias=true)
+assert.that(provo1.esEpecial())
+
+
+const asado1= new CorteDeCarne(calidad=10,peso=250)
+const asado2= new CorteDeCarne(calidad=7,peso=200)
+const asado3= new CorteDeCarne(calidad=8,peso=50)
+
+const parrilla1= new Parrillada(cortesDeCarnePedidos=[asado1,asado2,asado3])
+assert.that(parrilla1.valoracion()==147)
+
+}
+
